@@ -1,4 +1,8 @@
 -- CONFIG
-local joinleavelogs = ""
-local chatlogs = ""
+local joinleavelogs = "https://raw.githubusercontent.com/rtedpro-cpu/ahsl-projects/refs/heads/main/AHSL-WebLogs/stable/join-leave-logs.lua"
+local chatlogs = "https://raw.githubusercontent.com/rtedpro-cpu/ahsl-projects/refs/heads/main/AHSL-WebLogs/stable/chat-logs.lua"
+local WebhookUrl = "DISCORD_WEBHOOK_URL_HERE"
+local Webhook = "DISCORD_WEBHOOK_URL_HERE"
 
+loadstring(http.Get(joinleavelogs))
+loadstring(http.Get(chatlogs))
