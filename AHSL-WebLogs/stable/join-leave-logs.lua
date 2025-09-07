@@ -48,3 +48,4 @@ while true do
 
     KnownPlayers = current
     Wait(1)
+end
