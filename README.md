@@ -21,3 +21,8 @@ global Webhook = "DISCORD_WEBHOOK_URL_HERE"
 loadstring(http.Get(joinleavelogs))
 loadstring(http.Get(chatlogs))
 ```
+
+
+Current Bugs:
+
+1. If too many messages are sent in chat at once, there might be a duplicate of one message.
